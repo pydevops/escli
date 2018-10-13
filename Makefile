@@ -1,10 +1,10 @@
 SOURCEDIR=.
 SOURCES :=  $(shell find . -name '*.go' -not -path './vendor/*')
-BINARY=esops
+BINARY=escli
 VERSION=1.0.0
 BUILD_TIME=`date +%FT%T%z`
 
-PACKAGES := github.com/pydevops/esops
+PACKAGES := github.com/pydevops/escli
 DEPENDENCIES := github.com/parnurzeal/gorequest
 
 

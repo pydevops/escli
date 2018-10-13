@@ -1,16 +1,16 @@
 ## Benefits
-`esops` takes the minimalist apporach to manage  the elasticsearch cluster.
+`escli` takes the minimalist apporach to manage  the elasticsearch cluster.
 * It relies on the ElasticSearch REST API only, i.e. reduces upgrade overhead as it does not use any elasticsearch go client api. 
 * Works for 1.5 to 6.x API unless the API is changed or deprecated, no need to manage different versions. 
 
 
 ```
-$./esops
+$./escli
 NAME:
-   esops - A new cli application
+   escli - A new cli application
 
 USAGE:
-   esops [global options] command [command options] [arguments...]
+   escli [global options] command [command options] [arguments...]
 
 VERSION:
    0.0.1

@@ -277,7 +277,7 @@ func main() {
 	logrus.SetFormatter(Formatter)
 
 	app := cli.NewApp()
-	app.Name = "esops"
+	app.Name = "escli"
 	app.Version = "0.0.1"
 	app.EnableBashCompletion = true
 
